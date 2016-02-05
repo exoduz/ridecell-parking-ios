@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C902507B1C647A7F00A01F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C902507A1C647A7F00A01F51 /* LaunchScreen.storyboard */; };
+		C902507F1C647C1B00A01F51 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902507D1C647C1B00A01F51 /* Fabric.framework */; };
+		C90250801C647C1B00A01F51 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902507E1C647C1B00A01F51 /* Crashlytics.framework */; };
 		C96D89BA1C646B2A0057882C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D89B91C646B2A0057882C /* AppDelegate.swift */; };
 		C96D89BC1C646B2A0057882C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D89BB1C646B2A0057882C /* ViewController.swift */; };
 		C96D89BF1C646B2A0057882C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D89BD1C646B2A0057882C /* Main.storyboard */; };
 		C96D89C11C646B2A0057882C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96D89C01C646B2A0057882C /* Assets.xcassets */; };
-		C96D89C41C646B2A0057882C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D89C21C646B2A0057882C /* LaunchScreen.storyboard */; };
 		C96D89CF1C646B2A0057882C /* RidecellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D89CE1C646B2A0057882C /* RidecellTests.swift */; };
 		C96D89DA1C646B2A0057882C /* RidecellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D89D91C646B2A0057882C /* RidecellUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C902507A1C647A7F00A01F51 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C902507D1C647C1B00A01F51 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		C902507E1C647C1B00A01F51 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		C96D89B61C646B2A0057882C /* Ridecell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridecell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D89B91C646B2A0057882C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C96D89BB1C646B2A0057882C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C96D89BE1C646B2A0057882C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C96D89C01C646B2A0057882C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C96D89C31C646B2A0057882C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96D89C51C646B2A0057882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C96D89CA1C646B2A0057882C /* RidecellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidecellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D89CE1C646B2A0057882C /* RidecellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidecellTests.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90250801C647C1B00A01F51 /* Crashlytics.framework in Frameworks */,
+				C902507F1C647C1B00A01F51 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 				C96D89CD1C646B2A0057882C /* RidecellTests */,
 				C96D89D81C646B2A0057882C /* RidecellUITests */,
 				C96D89B71C646B2A0057882C /* Products */,
+				C902507D1C647C1B00A01F51 /* Fabric.framework */,
+				C902507E1C647C1B00A01F51 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +109,7 @@
 				C96D89BB1C646B2A0057882C /* ViewController.swift */,
 				C96D89BD1C646B2A0057882C /* Main.storyboard */,
 				C96D89C01C646B2A0057882C /* Assets.xcassets */,
-				C96D89C21C646B2A0057882C /* LaunchScreen.storyboard */,
+				C902507A1C647A7F00A01F51 /* LaunchScreen.storyboard */,
 				C96D89C51C646B2A0057882C /* Info.plist */,
 			);
 			path = Ridecell;
@@ -135,6 +143,7 @@
 				C96D89B21C646B2A0057882C /* Sources */,
 				C96D89B31C646B2A0057882C /* Frameworks */,
 				C96D89B41C646B2A0057882C /* Resources */,
+				C902507C1C647B6000A01F51 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -229,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96D89C41C646B2A0057882C /* LaunchScreen.storyboard in Resources */,
+				C902507B1C647A7F00A01F51 /* LaunchScreen.storyboard in Resources */,
 				C96D89C11C646B2A0057882C /* Assets.xcassets in Resources */,
 				C96D89BF1C646B2A0057882C /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C902507C1C647B6000A01F51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 4ee40d0b066abf7b635ec89a316c605dd31ee2a8 41b6beed70cf6d4dfbf59927b7161d4c1779bde2d8e671d0eec1151469d1a4e6";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C96D89B21C646B2A0057882C /* Sources */ = {
@@ -299,14 +324,6 @@
 				C96D89BE1C646B2A0057882C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C96D89C21C646B2A0057882C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C96D89C31C646B2A0057882C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,9 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ridecell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinjulius.Ridecell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robinjulius.ridecell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +431,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robin Roy Julius (3MX8FV564N)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ridecell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.robinjulius.Ridecell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robinjulius.ridecell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +510,7 @@
 				C96D89E01C646B2A0057882C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96D89E11C646B2A0057882C /* Build configuration list for PBXNativeTarget "RidecellTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +519,7 @@
 				C96D89E31C646B2A0057882C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C96D89E41C646B2A0057882C /* Build configuration list for PBXNativeTarget "RidecellUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +528,7 @@
 				C96D89E61C646B2A0057882C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

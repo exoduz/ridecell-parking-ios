@@ -8,16 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
 
+    @IBOutlet weak var webView: UIWebView!
+    
+    private var url: String {
+        return "http://ridecell.robinjulius.com"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        webView.delegate = self
+        
+        self.initialize()
+        
+        let profileURL = url
+        let requestURL = NSURL(string: profileURL)
+        let request = NSURLRequest(URL: requestURL!)
+        webView.loadRequest(request)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func initialize() {
+        navigationController?.navigationBar.barTintColor = UIColor(red: 4.0/255.0, green: 215.0/255.0, blue: 81.0/255.0, alpha: 1.0)
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        navigationController?.navigationBar.translucent = false
+        self.navigationItem.title? = "Ridecell Parking App"
     }
 
 
