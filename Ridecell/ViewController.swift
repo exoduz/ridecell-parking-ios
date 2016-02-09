@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webView: UIWebView!
     
     private var url: String {
-        return "http://ridecell.robinjulius.com"
+        return "http://work.robinjulius.com/ridecell"
     }
     
     override func viewDidLoad() {
